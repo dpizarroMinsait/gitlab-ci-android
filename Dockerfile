@@ -6,7 +6,7 @@
 #
 
 FROM ubuntu:17.04
-MAINTAINER Jan Grewe <jan@faked.org>
+MAINTAINER David Pizarro <dpizarro@minsait.com>
 
 ENV VERSION_SDK_TOOLS "3859397"
 
