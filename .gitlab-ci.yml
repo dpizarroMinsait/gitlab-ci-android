@@ -4,9 +4,9 @@ stages:
 build:
   stage: build
   script:
-    - docker build -t docker.io/dpizarro/gitlab-ci-android:latest .
+    - docker build -t dpizarro/gitlab-ci-android:latest .
 push:
   stage: push
   script:
-    - docker push docker.io/dpizarro/gitlab-ci-android:latest
+    - docker push dpizarro/gitlab-ci-android:latest
 
